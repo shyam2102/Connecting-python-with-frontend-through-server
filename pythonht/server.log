@@ -1,0 +1,149 @@
+2024-07-01 12:40:17,058 - INFO - Starting server on port 8080...
+2024-07-01 12:41:33,968 - DEBUG - Handling POST request for /update
+2024-07-01 12:41:33,972 - DEBUG - Received data for update: {'id': ['13'], 'name': ['viki'], 'age': ['55'], 'department': ['cse'], 'email': ['vicky@gmail.com']}
+2024-07-01 12:41:34,018 - DEBUG - Updated record with ID: 13
+2024-07-01 12:49:43,676 - DEBUG - Handling POST request for /update
+2024-07-01 12:49:43,693 - DEBUG - Received data for update: {'id': ['13'], 'name': ['viki'], 'age': ['55'], 'department': ['cse'], 'email': ['vicky@gmail.com']}
+2024-07-01 12:49:43,708 - DEBUG - Updated record with ID: 13
+2024-07-01 12:55:05,201 - DEBUG - Handling POST request for /create
+2024-07-01 12:55:05,201 - DEBUG - Received data for creation: {'------WebKitFormBoundary0WOL0AgVyXptUyEb\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nShyam Sundar R\r\n------WebKitFormBoundary0WOL0AgVyXptUyEb\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundary0WOL0AgVyXptUyEb\r\nContent-Disposition: form-data; name="department"\r\n\r\nIT\r\n------WebKitFormBoundary0WOL0AgVyXptUyEb\r\nContent-Disposition: form-data; name="email"\r\n\r\nalice12@gamil.com\r\n------WebKitFormBoundary0WOL0AgVyXptUyEb--\r\n']}
+2024-07-01 12:55:09,584 - DEBUG - Handling POST request for /create
+2024-07-01 12:55:09,584 - DEBUG - Received data for creation: {'------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nShyam Sundar R\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="department"\r\n\r\nIT\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="email"\r\n\r\nalice12@gamil.com\r\n------WebKitFormBoundaryByyewFLicxP9MqFi--\r\n']}
+2024-07-01 12:55:09,911 - DEBUG - Handling POST request for /create
+2024-07-01 12:55:09,911 - DEBUG - Received data for creation: {'------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nShyam Sundar R\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="department"\r\n\r\nIT\r\n------WebKitFormBoundaryByyewFLicxP9MqFi\r\nContent-Disposition: form-data; name="email"\r\n\r\nalice12@gamil.com\r\n------WebKitFormBoundaryByyewFLicxP9MqFi--\r\n']}
+2024-07-01 12:55:10,170 - DEBUG - Handling POST request for /create
+2024-07-01 12:55:10,170 - DEBUG - Received data for creation: {'------WebKitFormBoundaryYuMz9KsiaPQ83MR7\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nShyam Sundar R\r\n------WebKitFormBoundaryYuMz9KsiaPQ83MR7\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundaryYuMz9KsiaPQ83MR7\r\nContent-Disposition: form-data; name="department"\r\n\r\nIT\r\n------WebKitFormBoundaryYuMz9KsiaPQ83MR7\r\nContent-Disposition: form-data; name="email"\r\n\r\nalice12@gamil.com\r\n------WebKitFormBoundaryYuMz9KsiaPQ83MR7--\r\n']}
+2024-07-01 12:55:10,479 - DEBUG - Handling POST request for /create
+2024-07-01 12:55:10,479 - DEBUG - Received data for creation: {'------WebKitFormBoundaryogn5QwAzPNPw3NYB\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nShyam Sundar R\r\n------WebKitFormBoundaryogn5QwAzPNPw3NYB\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundaryogn5QwAzPNPw3NYB\r\nContent-Disposition: form-data; name="department"\r\n\r\nIT\r\n------WebKitFormBoundaryogn5QwAzPNPw3NYB\r\nContent-Disposition: form-data; name="email"\r\n\r\nalice12@gamil.com\r\n------WebKitFormBoundaryogn5QwAzPNPw3NYB--\r\n']}
+2024-07-01 12:56:10,523 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:10,523 - DEBUG - Received data for update: {'------WebKitFormBoundarySOmEcKvsjAPR72dA\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundarySOmEcKvsjAPR72dA\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundarySOmEcKvsjAPR72dA\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundarySOmEcKvsjAPR72dA\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundarySOmEcKvsjAPR72dA\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundarySOmEcKvsjAPR72dA--\r\n']}
+2024-07-01 12:56:12,836 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:12,836 - DEBUG - Received data for update: {'------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0--\r\n']}
+2024-07-01 12:56:13,174 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:13,175 - DEBUG - Received data for update: {'------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryl8BnJ9V2RfwUaVu0--\r\n']}
+2024-07-01 12:56:13,233 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:13,234 - DEBUG - Received data for update: {'------WebKitFormBoundary0rYDum7rCnircsIe\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundary0rYDum7rCnircsIe\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundary0rYDum7rCnircsIe\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundary0rYDum7rCnircsIe\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundary0rYDum7rCnircsIe\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundary0rYDum7rCnircsIe--\r\n']}
+2024-07-01 12:56:13,421 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:13,421 - DEBUG - Received data for update: {'------WebKitFormBoundary22eHEfECdvxeoMTi\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundary22eHEfECdvxeoMTi\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundary22eHEfECdvxeoMTi\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundary22eHEfECdvxeoMTi\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundary22eHEfECdvxeoMTi\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundary22eHEfECdvxeoMTi--\r\n']}
+2024-07-01 12:56:13,458 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:13,460 - DEBUG - Received data for update: {'------WebKitFormBoundarybtof2r1RzjT8QdcW\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundarybtof2r1RzjT8QdcW\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundarybtof2r1RzjT8QdcW\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundarybtof2r1RzjT8QdcW\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundarybtof2r1RzjT8QdcW\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundarybtof2r1RzjT8QdcW--\r\n']}
+2024-07-01 12:56:13,541 - DEBUG - Handling POST request for /update
+2024-07-01 12:56:13,542 - DEBUG - Received data for update: {'------WebKitFormBoundaryiwTr6QrOIyYH9I1z\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n15\r\n------WebKitFormBoundaryiwTr6QrOIyYH9I1z\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundaryiwTr6QrOIyYH9I1z\r\nContent-Disposition: form-data; name="age"\r\n\r\n40\r\n------WebKitFormBoundaryiwTr6QrOIyYH9I1z\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryiwTr6QrOIyYH9I1z\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryiwTr6QrOIyYH9I1z--\r\n']}
+2024-07-01 12:57:00,868 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:00,868 - DEBUG - Received data for creation: {'------WebKitFormBoundaryPJa5L5D6CUMhhPKJ\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryPJa5L5D6CUMhhPKJ\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryPJa5L5D6CUMhhPKJ\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryPJa5L5D6CUMhhPKJ\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryPJa5L5D6CUMhhPKJ--\r\n']}
+2024-07-01 12:57:01,308 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:01,308 - DEBUG - Received data for creation: {'------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl--\r\n']}
+2024-07-01 12:57:01,635 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:01,637 - DEBUG - Received data for creation: {'------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryBGV8Ynh3qb61COPl--\r\n']}
+2024-07-01 12:57:01,725 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:01,726 - DEBUG - Received data for creation: {'------WebKitFormBoundaryGGNY1ZSKLhBvinO0\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryGGNY1ZSKLhBvinO0\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryGGNY1ZSKLhBvinO0\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryGGNY1ZSKLhBvinO0\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryGGNY1ZSKLhBvinO0--\r\n']}
+2024-07-01 12:57:01,902 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:01,902 - DEBUG - Received data for creation: {'------WebKitFormBoundarypBTJSeHsShklH05I\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundarypBTJSeHsShklH05I\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundarypBTJSeHsShklH05I\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundarypBTJSeHsShklH05I\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundarypBTJSeHsShklH05I--\r\n']}
+2024-07-01 12:57:01,956 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:01,956 - DEBUG - Received data for creation: {'------WebKitFormBoundaryXPFEfnvE6whmgiIS\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryXPFEfnvE6whmgiIS\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryXPFEfnvE6whmgiIS\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryXPFEfnvE6whmgiIS\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryXPFEfnvE6whmgiIS--\r\n']}
+2024-07-01 12:57:02,053 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:02,055 - DEBUG - Received data for creation: {'------WebKitFormBoundarycrzJlgaujHAf8d3X\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundarycrzJlgaujHAf8d3X\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundarycrzJlgaujHAf8d3X\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundarycrzJlgaujHAf8d3X\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundarycrzJlgaujHAf8d3X--\r\n']}
+2024-07-01 12:57:02,264 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:02,264 - DEBUG - Received data for creation: {'------WebKitFormBoundaryYVdTpdvBfGXcyjki\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundaryYVdTpdvBfGXcyjki\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundaryYVdTpdvBfGXcyjki\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryYVdTpdvBfGXcyjki\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundaryYVdTpdvBfGXcyjki--\r\n']}
+2024-07-01 12:57:02,369 - DEBUG - Handling POST request for /create
+2024-07-01 12:57:02,369 - DEBUG - Received data for creation: {'------WebKitFormBoundarywZlguREZ1sK5I3Ll\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nsdguILD\r\n------WebKitFormBoundarywZlguREZ1sK5I3Ll\r\nContent-Disposition: form-data; name="age"\r\n\r\n66\r\n------WebKitFormBoundarywZlguREZ1sK5I3Ll\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundarywZlguREZ1sK5I3Ll\r\nContent-Disposition: form-data; name="email"\r\n\r\nvigne@gmail.com\r\n------WebKitFormBoundarywZlguREZ1sK5I3Ll--\r\n']}
+2024-07-01 12:57:44,516 - DEBUG - Handling POST request for /update
+2024-07-01 12:57:44,516 - DEBUG - Received data for update: {'------WebKitFormBoundaryolIz16M9grhT6yKO\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n10\r\n------WebKitFormBoundaryolIz16M9grhT6yKO\r\nContent-Disposition: form-data; name="name"\r\n\r\nGGG\r\n------WebKitFormBoundaryolIz16M9grhT6yKO\r\nContent-Disposition: form-data; name="age"\r\n\r\n20\r\n------WebKitFormBoundaryolIz16M9grhT6yKO\r\nContent-Disposition: form-data; name="department"\r\n\r\nSDS\r\n------WebKitFormBoundaryolIz16M9grhT6yKO\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryolIz16M9grhT6yKO--\r\n']}
+2024-07-01 12:57:46,135 - DEBUG - Handling POST request for /delete
+2024-07-01 12:57:46,139 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryGTPydjNPKpsQmr7h\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n7\r\n------WebKitFormBoundaryGTPydjNPKpsQmr7h--\r\n']}
+2024-07-01 12:57:46,468 - DEBUG - Handling POST request for /delete
+2024-07-01 12:57:46,469 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryGTPydjNPKpsQmr7h\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n7\r\n------WebKitFormBoundaryGTPydjNPKpsQmr7h--\r\n']}
+2024-07-01 12:59:06,531 - INFO - Starting server on port 8080...
+2024-07-01 12:59:49,662 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:49,662 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryr4iBBrk6waBMWAG6\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryr4iBBrk6waBMWAG6--\r\n']}
+2024-07-01 12:59:51,222 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:51,222 - DEBUG - Received data for deletion: {'------WebKitFormBoundarypdgNY2kdAEqZ9F65\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarypdgNY2kdAEqZ9F65--\r\n']}
+2024-07-01 12:59:51,545 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:51,545 - DEBUG - Received data for deletion: {'------WebKitFormBoundarypdgNY2kdAEqZ9F65\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarypdgNY2kdAEqZ9F65--\r\n']}
+2024-07-01 12:59:51,652 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:51,653 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryMiNSvSQEFGtz6CzG\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryMiNSvSQEFGtz6CzG--\r\n']}
+2024-07-01 12:59:51,813 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:51,813 - DEBUG - Received data for deletion: {'------WebKitFormBoundarySOS9wNT6f0suvGpO\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarySOS9wNT6f0suvGpO--\r\n']}
+2024-07-01 12:59:51,913 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:51,913 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryLxyitmb1UBzrUz2b\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryLxyitmb1UBzrUz2b--\r\n']}
+2024-07-01 12:59:52,008 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:52,009 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryf2dPueiuchDWCQfY\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryf2dPueiuchDWCQfY--\r\n']}
+2024-07-01 12:59:52,243 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:52,243 - DEBUG - Received data for deletion: {'------WebKitFormBoundarycHxbpan2k8qsKZSu\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarycHxbpan2k8qsKZSu--\r\n']}
+2024-07-01 12:59:52,342 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:52,342 - DEBUG - Received data for deletion: {'------WebKitFormBoundarylfGsujikyPI2wIiA\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarylfGsujikyPI2wIiA--\r\n']}
+2024-07-01 12:59:52,591 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:52,591 - DEBUG - Received data for deletion: {'------WebKitFormBoundarynbsAhBULAmBB2DNn\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarynbsAhBULAmBB2DNn--\r\n']}
+2024-07-01 12:59:52,908 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:52,908 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryAP9OKZbDTfmqddeD\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryAP9OKZbDTfmqddeD--\r\n']}
+2024-07-01 12:59:53,236 - DEBUG - Handling POST request for /delete
+2024-07-01 12:59:53,236 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryAP9OKZbDTfmqddeD\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryAP9OKZbDTfmqddeD--\r\n']}
+2024-07-01 13:00:06,439 - DEBUG - Handling POST request for /delete
+2024-07-01 13:00:06,439 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryyhYmd6DvplAiUYmK\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryyhYmd6DvplAiUYmK--\r\n']}
+2024-07-01 13:05:57,043 - INFO - Starting server on port 8080...
+2024-07-01 13:06:31,191 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:31,191 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryu0mCnBRncuQfcunS\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryu0mCnBRncuQfcunS--\r\n']}
+2024-07-01 13:06:31,817 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:31,817 - DEBUG - Received data for deletion: {'------WebKitFormBoundarygmvkQ9itdZ8tBmGH\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarygmvkQ9itdZ8tBmGH--\r\n']}
+2024-07-01 13:06:32,148 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,148 - DEBUG - Received data for deletion: {'------WebKitFormBoundarygmvkQ9itdZ8tBmGH\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarygmvkQ9itdZ8tBmGH--\r\n']}
+2024-07-01 13:06:32,215 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,215 - DEBUG - Received data for deletion: {'------WebKitFormBoundarybt0uHyEmoepglkq9\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarybt0uHyEmoepglkq9--\r\n']}
+2024-07-01 13:06:32,403 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,407 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryZrvj6zlgACBVum4S\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryZrvj6zlgACBVum4S--\r\n']}
+2024-07-01 13:06:32,459 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,461 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryX399uu1JjayC4t6r\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryX399uu1JjayC4t6r--\r\n']}
+2024-07-01 13:06:32,563 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,564 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryK85gUCupD7xNuiSa\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryK85gUCupD7xNuiSa--\r\n']}
+2024-07-01 13:06:32,771 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,771 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryg4ChqDDlzb9hDezw\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryg4ChqDDlzb9hDezw--\r\n']}
+2024-07-01 13:06:32,898 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:32,899 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryifeHBKmM0IMgwiFs\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryifeHBKmM0IMgwiFs--\r\n']}
+2024-07-01 13:06:33,112 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:33,115 - DEBUG - Received data for deletion: {'------WebKitFormBoundarymGGA55KWcbQ4sPXq\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundarymGGA55KWcbQ4sPXq--\r\n']}
+2024-07-01 13:06:33,259 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:33,260 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryBagf8eauA7gSyPsl\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryBagf8eauA7gSyPsl--\r\n']}
+2024-07-01 13:06:33,508 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:33,508 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryRSTemNXvzkttzVeS\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryRSTemNXvzkttzVeS--\r\n']}
+2024-07-01 13:06:33,645 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:33,647 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryNt0rTawud7LnPMua\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryNt0rTawud7LnPMua--\r\n']}
+2024-07-01 13:06:33,859 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:33,859 - DEBUG - Received data for deletion: {'------WebKitFormBoundaryEBun8QDxOPhxG9aW\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundaryEBun8QDxOPhxG9aW--\r\n']}
+2024-07-01 13:06:34,007 - DEBUG - Handling POST request for /delete
+2024-07-01 13:06:34,007 - DEBUG - Received data for deletion: {'------WebKitFormBoundary6bPBjpiRJAnWB6zN\r\nContent-Disposition: form-data; name': ['"id"\r\n\r\n6\r\n------WebKitFormBoundary6bPBjpiRJAnWB6zN--\r\n']}
+2024-07-01 13:08:23,694 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:23,694 - DEBUG - Received data for creation: {'------WebKitFormBoundaryOmSm9cGJKnew5Z1Z\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundaryOmSm9cGJKnew5Z1Z\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundaryOmSm9cGJKnew5Z1Z\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryOmSm9cGJKnew5Z1Z\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryOmSm9cGJKnew5Z1Z--\r\n']}
+2024-07-01 13:08:24,072 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:24,072 - DEBUG - Received data for creation: {'------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R--\r\n']}
+2024-07-01 13:08:24,410 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:24,411 - DEBUG - Received data for creation: {'------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundarys3C0zCo1dkvpIj4R--\r\n']}
+2024-07-01 13:08:24,462 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:24,462 - DEBUG - Received data for creation: {'------WebKitFormBoundaryJOcqBW1zox9Mv3Yx\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundaryJOcqBW1zox9Mv3Yx\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundaryJOcqBW1zox9Mv3Yx\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryJOcqBW1zox9Mv3Yx\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryJOcqBW1zox9Mv3Yx--\r\n']}
+2024-07-01 13:08:24,646 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:24,646 - DEBUG - Received data for creation: {'------WebKitFormBoundaryj3zuRRpAAEA2H0pa\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundaryj3zuRRpAAEA2H0pa\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundaryj3zuRRpAAEA2H0pa\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryj3zuRRpAAEA2H0pa\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryj3zuRRpAAEA2H0pa--\r\n']}
+2024-07-01 13:08:24,684 - DEBUG - Handling POST request for /create
+2024-07-01 13:08:24,685 - DEBUG - Received data for creation: {'------WebKitFormBoundaryzTUZgy6bpE3yBfor\r\nContent-Disposition: form-data; name': ['"name"\r\n\r\nGGG\r\n------WebKitFormBoundaryzTUZgy6bpE3yBfor\r\nContent-Disposition: form-data; name="age"\r\n\r\n2\r\n------WebKitFormBoundaryzTUZgy6bpE3yBfor\r\nContent-Disposition: form-data; name="department"\r\n\r\ncse\r\n------WebKitFormBoundaryzTUZgy6bpE3yBfor\r\nContent-Disposition: form-data; name="email"\r\n\r\nggg@gmail.com\r\n------WebKitFormBoundaryzTUZgy6bpE3yBfor--\r\n']}
+2024-07-01 13:13:19,710 - INFO - Starting server on port 8080...
+2024-07-01 13:13:43,898 - DEBUG - Handling POST request for /delete
+2024-07-01 13:13:43,898 - DEBUG - Received data for deletion: {'id': ['6']}
+2024-07-01 13:13:43,952 - DEBUG - Deleted record with ID: 6
+2024-07-01 13:15:06,843 - DEBUG - Handling POST request for /update
+2024-07-01 13:15:06,848 - DEBUG - Received data for update: {'id': ['6'], 'name': ['GGG'], 'age': ['22'], 'department': ['SDS'], 'email': ['ggg@gmail.com']}
+2024-07-01 13:15:06,852 - DEBUG - Updated record with ID: 6
+2024-07-01 13:15:26,969 - DEBUG - Handling POST request for /update
+2024-07-01 13:15:26,969 - DEBUG - Received data for update: {'id': ['7'], 'name': ['GGG'], 'age': ['22'], 'department': ['SDS'], 'email': ['ggg@gmail.com']}
+2024-07-01 13:15:26,997 - DEBUG - Updated record with ID: 7
+2024-07-01 13:27:07,108 - INFO - Starting server on port 8080...
+2024-07-01 13:28:13,501 - DEBUG - Handling POST request for /delete
+2024-07-01 13:28:13,504 - DEBUG - Received data for deletion: {'id': ['11']}
+2024-07-01 13:28:13,527 - DEBUG - Deleted record with ID: 11
+2024-07-01 13:32:32,599 - DEBUG - Handling POST request for /create
+2024-07-01 13:32:32,604 - DEBUG - Received data for creation: {'name': ['Workiy'], 'age': ['20'], 'department': ['IT'], 'email': ['workiy@gmail.com']}
+2024-07-01 13:32:32,616 - DEBUG - Created record with ID: 17
+2024-07-02 01:26:43,216 - INFO - Starting server on port 8080...
+2024-07-02 01:29:43,207 - DEBUG - Handling POST request for /update
+2024-07-02 01:29:43,212 - DEBUG - Received data for update: {'id': ['4'], 'name': ['Surya'], 'age': ['21'], 'department': ['IT'], 'email': ['ggg@gmail.com']}
+2024-07-02 01:29:43,312 - DEBUG - Updated record with ID: 4
+2024-07-02 01:30:26,890 - DEBUG - Handling POST request for /delete
+2024-07-02 01:30:26,895 - DEBUG - Received data for deletion: {'id': ['14']}
+2024-07-02 01:30:26,920 - DEBUG - Deleted record with ID: 14

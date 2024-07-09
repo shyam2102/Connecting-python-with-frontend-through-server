@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Form</title>
+</head>
+<body>
+    <h2>Create College Form</h2>
+    <form action="/create" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Create</button>
+    </form>
+
+    <h2>Update College Form</h2>
+    <form action="/update" method="POST">
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" required><br><br>
+
+        <label for="name_update">Name:</label>
+        <input type="text" id="name_update" name="name"><br><br>
+        
+        <label for="age_update">Age:</label>
+        <input type="number" id="age_update" name="age"><br><br>
+        
+        <label for="department_update">Department:</label>
+        <input type="text" id="department_update" name="department"><br><br>
+        
+        <label for="email_update">Email:</label>
+        <input type="email" id="email_update" name="email"><br><br>
+
+        <button type="submit">Update</button>
+    </form>
+
+    <h2>Delete College Form</h2>
+    <form action="/delete" method="POST">
+        <label for="delete_id">ID:</label>
+        <input type="number" id="delete_id" name="id" required><br><br>
+
+        <button type="submit">Delete</button>
+    </form>
+
+    <h2>Get College Form by ID</h2>
+    <form>
+        <label for="get_id">ID:</label>
+        <input type="number" id="get_id" name="id" required>
+        <button type="button" onclick="getById()">Get Form</button>
+    </form>
+    <div id="get_result"></div>
+
+    <script>
+        function getById() {
+            let id = document.getElementById('get_id').value;
+            fetch(`/get?id=${id}`)
+                .then(response => response.json())
+                .then(data => {
+                    let resultDiv = document.getElementById('get_result');
+                    if (data.error) {
+                        resultDiv.innerHTML = `<p>${data.error}</p>`;
+                    } else {
+                        resultDiv.innerHTML = `
+                            <p>ID: ${data.id}</p>
+                            <p>Name: ${data.name}</p>
+                            <p>Age: ${data.age}</p>
+                            <p>Department: ${data.department}</p>
+                            <p>Email: ${data.email}</p>
+                        `;
+                    }
+                })
+                .catch(error => console.error('Error fetching form:', error));
+        }
+    </script>
+</body>
+</html>
